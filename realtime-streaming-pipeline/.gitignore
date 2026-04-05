@@ -1,0 +1,12 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+cdk/cdk.out/
+cdk.context.json
+*.egg-info/
+coverage.xml
+.coverage
+spark-warehouse/
+derby.log
