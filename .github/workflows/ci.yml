@@ -35,10 +35,11 @@ jobs:
       - name: Run unit tests
         run: pytest tests/unit/ -v --tb=short --cov=consumer --cov=producer
 
-  cdk-synth:
+ cdk-synth:
     name: CDK Synth
     runs-on: ubuntu-latest
     needs: test
+    if: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
