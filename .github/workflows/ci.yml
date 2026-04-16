@@ -1,4 +1,3 @@
-cat > .github/workflows/ci.yml << 'EOF'
 name: Streaming Pipeline CI
 on:
   push:
@@ -42,4 +41,3 @@ jobs:
     if: false
     steps:
       - uses: actions/checkout@v4
-EOF
